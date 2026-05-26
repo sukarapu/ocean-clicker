@@ -1,6 +1,6 @@
 # 🌊 Ocean Clicker
 
-Sea-themed clicker game — a variant of Lemon Clicker created as a college project
+Sea-themed clicker game — created as a college project
 
 ## 🚀 Technologies
 * **React.js** (Functional components & Hooks)
