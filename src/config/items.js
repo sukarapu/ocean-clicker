@@ -18,15 +18,6 @@ export default [
     image: "beach.svg"
   },
   {
-    id: "net",
-    name: "Net",
-    qty: 0,
-    baseprice: 600,
-    price: 600,
-    multiplier: 60,
-    image: "net.svg"
-  },
-  {
     id: "boat",
     name: "Boat",
     qty: 0,
