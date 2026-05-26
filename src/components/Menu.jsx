@@ -1,5 +1,5 @@
 import { NavLink } from "react-router"
-import iconBottle from '../assets/bottle.svg'
+import iconOcean from '../assets/ocean-big.svg'
 import iconPackage from '../assets/package.svg'
 import iconSettings from '../assets/settings.svg'
 
@@ -8,7 +8,7 @@ function Menu(props) {
     return (
     <div className="menu">
       <div>
-        <NavLink to="/" viewTransition><img src={iconBottle} alt="main" /></NavLink>
+        <NavLink to="/" viewTransition><img src={iconOcean} alt="main" /></NavLink>
       </div>
       <div>
         <NavLink to="/store" viewTransition>
