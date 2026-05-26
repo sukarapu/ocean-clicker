@@ -67,11 +67,11 @@ function App() {
   }
 
     // Luodaan taltio, johon tallennetaan tuotelista.
-  const [storeitems,setStoreitems, resetStoreitems] = useLocalStorage('lemon-items',items)
+  const [storeitems,setStoreitems, resetStoreitems] = useLocalStorage('ocean-items',items)
 
 
     // Luodaan taltio, johon tallennetaan pelin laskennalliset tiedot.
-  const [stats, setStats, resetStats] = useLocalStorage('lemon-stats',initialstats)
+  const [stats, setStats, resetStats] = useLocalStorage('ocean-stats',initialstats)
 
 
   const handleClick = () => {

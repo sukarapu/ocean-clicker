@@ -1,14 +1,14 @@
 import Balance from '../components/Balance'
 import Booster from '../components/Booster'
 import Header from '../components/Header'
-import Lemon from '../components/Lemon'
+import Bottle from '../components/Bottle'
 
 function Clicker(props) {
   return (
     <div className="container clicker">
-      <Header>ocean cleaner</Header>
+      <Header>ocean clicker</Header>
       <Balance total={props.stats.balance} />
-      <Lemon onClick={props.handleClick} />
+      <Bottle onClick={props.handleClick} />
       <Booster value={props.stats.increase} />
     </div>
   )

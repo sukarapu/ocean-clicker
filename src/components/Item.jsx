@@ -1,4 +1,4 @@
-import iconLemon from '../assets/lemon.svg'
+import iconBottle from '../assets/bottle.svg'
 import shortenNumber from '../utils/shortenNumber'
 
 // Funktio, joka selvittää kuvan polun suoritusaikana.
@@ -18,7 +18,7 @@ function Item(props) {
       <div className="item_icon"><img src={url} alt=""/></div>
       <div className="item_desc">
         {props.item.name}<br/>
-        {shortenNumber(props.item.price)} <img src={iconLemon} alt="lemons" />
+        {shortenNumber(props.item.price)} <img src={iconBottle} alt="bottles" />
       </div>
       <div className="item_qty">{props.item.qty}</div>
     </div>
