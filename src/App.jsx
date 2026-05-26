@@ -90,12 +90,15 @@ function App() {
     resetStoreitems()
   }
 
+  const isEnded = storeitems.find(item => item.id === 'submarine')?.qty > 0
+
   return (
     <AppRouter stats={stats}
                storeitems={storeitems}
                handleClick={handleClick}
                handlePurchase={handlePurchase}
-               handleReset={handleReset} />
+               handleReset={handleReset}
+               isEnded={isEnded} />
   )
 }
 

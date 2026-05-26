@@ -11,7 +11,7 @@ function AppRouter(props) {
    const router = createBrowserRouter([
     {
       path: "/",
-      element: <Root items={props.stats.itemstobuy} />,
+      element: <Root items={props.stats.itemstobuy} isEnded={props.isEnded} handleReset={props.handleReset} />,
       errorElement: <ErrorPage />,
       children: [
         { path: "", element: <Clicker stats={props.stats} handleClick={props.handleClick} /> },

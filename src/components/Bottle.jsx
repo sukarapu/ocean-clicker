@@ -2,7 +2,7 @@ import bottle from '../assets/bottle.svg'
 
 function Bottle(props) {
   return (
-    <div className="lemon">
+    <div className="bottle">
       <img src={bottle} alt="bottle" onClick={props.onClick} />
     </div>
   )

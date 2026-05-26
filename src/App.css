@@ -37,19 +37,19 @@ h1 {
   |  .- root_content --------------------------------.  |   --+    |
   |  |  .- container -----------------------------.  |  |     |    |
   |  |  |  .- header --------------------------.  |  |  |     |    |
-  |  |  |  |            lemon clicker          |  |  |  |     |    |
+  |  |  |  |            ocean clicker          |  |  |  |     |    |
   |  |  |  '-----------------------------------'  |  |  |     |    |
   |  |  |  .- balance -------------------------.  |  |  |     |    |
-  |  |  |  |                           lemons  |  |  |  |     |    |
+  |  |  |  |                          bottles  |  |  |  |     |    |
   |  |  |  |                              571  |  |  |  |     |    |
   |  |  |  '-----------------------------------'  |  |  |   auto   |
-  |  |  |  .- lemon ---------------------------.  |  |  |     |    |
+  |  |  |  .- bottle --------------------------.  |  |  |     |    |
   |  |  |  |                                   |  |  |  |     |  100vh
-  |  |  |  |             L E M O N             |  |  |  |     |    |
+  |  |  |  |            B O T T L E            |  |  |  |     |    |
   |  |  |  |                                   |  |  |  |     |    |
   |  |  |  '-----------------------------------'  |  |  |     |    |
   |  |  |  .- booster -------------------------.  |  |  |     |    |
-  |  |  |  |         3.2 lemons / click        |  |  |  |     |    |
+  |  |  |  |        3.2 bottles / click        |  |  |  |     |    |
   |  |  |  '-----------------------------------'  |  |  |     |    |
   |  |  '-----------------------------------------'  |  |     |    |
   |  '-----------------------------------------------'  |   --+    |
@@ -208,18 +208,18 @@ a.active .menu_badge {
   font-weight: bold;                   /* teksti lihavoitu */
 }
 
-/* -- Lemon-komponentti ----------------------------------------------- */
+/* -- Bottle-komponentti ----------------------------------------------- */
 
-.lemon {
+.bottle {
   width: 35%;                          /* kuvan leveys 60% alueen leveydestä */
   margin: 0 auto;                      /* keskitetään kuva */
 }
 
-.lemon img {
+.bottle img {
   width: 100%;                         /* skaalataan kuva täyttämään kuvalle varattu alue */
 }
 
-.lemon img:active {
+.bottle img:active {
   -webkit-animation: beat 0.1s ease-in-out backwards;       /* kuvan animaation */
           animation: beat 0.1s ease-in-out backwards;       /* kuvan animaation */
 }
@@ -355,6 +355,44 @@ a.active .menu_badge {
 .reset button:disabled {
   background-color: var(--neutral-darker);       /* disabloidun napin taustaväri */ 
   color: var(--neutral);                         /* disabloidun napin tekstiväri */
+}
+
+/* -- EndScreen-komponentti ------------------------------------------- */
+
+.endscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  gap: 1em;
+}
+
+.endscreen_icon {
+  width: 8em;
+}
+
+.endscreen h1 {
+  font-size: 2.5em;
+  color: var(--primary);
+}
+
+.endscreen p {
+  font-size: 1.1em;
+  color: var(--neutral-darker);
+}
+
+.endscreen_button {
+  margin-top: 1em;
+  background-color: var(--primary);
+  color: var(--neutral-darkest);
+  border: none;
+  border-radius: 5px;
+  padding: 0.75em 2em;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* -- media queries --------------------------------------------------- */
