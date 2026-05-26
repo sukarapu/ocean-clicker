@@ -16,7 +16,7 @@ Sea-themed clicker game — created as a college project
 ## 🛠️ How to run locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ocean-clicker.git
+   git clone https://github.com/sukarapu/ocean-clicker.git
 
 2. Install dependencies:
    ```bash
