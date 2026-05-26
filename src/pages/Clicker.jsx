@@ -6,7 +6,7 @@ import Lemon from '../components/Lemon'
 function Clicker(props) {
   return (
     <div className="container clicker">
-      <Header>lemon clicker</Header>
+      <Header>ocean cleaner</Header>
       <Balance total={props.stats.balance} />
       <Lemon onClick={props.handleClick} />
       <Booster value={props.stats.increase} />

@@ -1,128 +1,74 @@
 export default [
   { 
-    id: "lemontree",
-    name: "Lemon tree",
+    id: "diver",
+    name: "Diver",
     qty: 0,
     baseprice: 10,
     price: 10,
-    multiplier: 0.2,
-    image: "lemontree.svg"
-  },
-  { 
-    id: "blender",
-    name: "Blender",
-    qty: 0,
-    baseprice: 70,
-    price: 70,
     multiplier: 2,
-    image: "blender.svg"
+    image: "diver.svg"
   },
   { 
-    id: "carbonator",
-    name: "Carbonator",
+    id: "beach",
+    name: "Beach",
     qty: 0,
-    baseprice: 490,
-    price: 490,
-    multiplier: 10,
-    image: "carbonator.svg"
+    baseprice: 50,
+    price: 50,
+    multiplier: 6,
+    image: "beach.svg"
   },
   { 
-    id: "bottler",
-    name: "Bottler",
+    id: "net",
+    name: "Net",
     qty: 0,
-    baseprice: 3400,
-    price: 3400,
-    multiplier: 50,
-    image: "bottler.svg"
+    baseprice: 100,
+    price: 100,
+    multiplier: 15,
+    image: "net.svg"
   },
   { 
-    id: "truck",
-    name: "Truck",
+    id: "boat",
+    name: "Boat",
     qty: 0,
-    baseprice: 24000,
-    price: 24000,
-    multiplier: 235,
-    image: "truck.svg"
+    baseprice: 200,
+    price: 200,
+    multiplier: 30,
+    image: "boat.svg"
   },
   { 
-    id: "spring",
-    name: "Spring",
+    id: "ship",
+    name: "Ship",
     qty: 0,
-    baseprice: 169000,
-    price: 169000,
-    multiplier: 1150,
-    image: "spring.svg"
+    baseprice: 500,
+    price: 500,
+    multiplier: 60,
+    image: "ship.svg"
   },
   { 
-    id: "sugarcane",
-    name: "Sugar cane field",
+    id: "recycling",
+    name: "Recycling",
     qty: 0,
-    baseprice: 1200000,
-    price: 1200000,
-    multiplier: 5600,
-    image: "sugarcane.svg"
+    baseprice: 700,
+    price: 700,
+    multiplier: 100,
+    image: "recycling.svg"
+  },
+  { 
+    id: "research-station",
+    name: "Research station",
+    qty: 0,
+    baseprice: 1000,
+    price: 1000,
+    multiplier: 150,
+    image: "research-station.svg"
   },   
   { 
-    id: "warehouse",
-    name: "Warehouse",
+    id: "submarine",
+    name: "Submarine",
     qty: 0,
-    baseprice: 8400000,
-    price: 8400000,
-    multiplier: 27500,
-    image: "warehouse.svg"
+    baseprice: 2000,
+    price: 2000,
+    multiplier: 200,
+    image: "submarine.svg"
   }, 
-  { 
-    id: "lab",
-    name: "Lab",
-    qty: 0,
-    baseprice: 59000000,
-    price: 59000000,
-    multiplier: 135000,
-    image: "lab.svg"
-  },
-  { 
-    id: "secret",
-    name: "Secret ingredient",
-    qty: 0,
-    baseprice: 417000000,
-    price: 417000000,
-    multiplier: 650000,
-    image: "secret.svg"
-  },
-  {
-    id: "power",
-    name: "Power plant",
-    qty: 0,
-    baseprice: 2950000000,
-    price: 2950000000,
-    multiplier: 3200000,
-    image: "power.svg"
-  },
-  {
-    id: "park",
-    name: "Amusement park",
-    qty: 0,
-    baseprice: 20800000000,
-    price: 20800000000,
-    multiplier: 15600000,
-    image: "park.svg"
-  },
-  {
-    id: "lemonai",
-    name: "LemonAI",
-    qty: 0,
-    baseprice: 147000000000,
-    price: 147000000000,
-    multiplier: 76100000,
-    image: "lemonai.svg"
-  },
-  {
-    id: "accelerator",
-    name: "Particle accelerator",
-    qty: 0,
-    baseprice: 1040000000000,
-    price: 1040000000000,
-    multiplier: 371000000,
-    image: "accelerator.svg"
-  },
 ];

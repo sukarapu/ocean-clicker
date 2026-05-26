@@ -8,7 +8,7 @@ function Settings(props) {
       <Header balance={props.stats.balance}>settings</Header>
       <div className="scrollbox">
         <div className="settings">
-          <h2>lemon stats</h2>
+          <h2>bottle stats</h2>
           <div>
             <Stat title="in bank" value={props.stats.balance} />
             <Stat title="per click" value={props.stats.increase} />
